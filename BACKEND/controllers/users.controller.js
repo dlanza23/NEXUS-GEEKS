@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer"
 /**
  * Get user by ID
- * @function getUserById
+ * @function getuserbyId
  * @param {Object} req - The request object
  * @param {Object} res - The response object
  * @returns {Object} - User by ID
@@ -72,7 +72,7 @@ export const login = async (req, res) => {
 
 /**
  * @description Register user
- * @function registerUser
+ * @function register
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @body {String} Full name of the user
@@ -121,7 +121,7 @@ export const logoutUser = async (req, res) => {
 
 /**
  * @description Forgot password
- * @function forgotPassword
+ * @function forgotpassword
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @returns {String} - Message
@@ -155,7 +155,7 @@ export const forgotpassword = async (req, res) => {
 
 /**
  * @description Reset password
- * @function resetPassword
+ * @function resetpassword
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @body {String} Password of the user
@@ -210,7 +210,7 @@ export const viewAccount = async (req, res) => {
 
 /**
  * @description View my profile
- * @function viewProfile
+ * @function viewMYProfile
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @returns {Object} - User profile data

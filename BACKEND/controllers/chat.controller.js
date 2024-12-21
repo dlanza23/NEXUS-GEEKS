@@ -2,7 +2,7 @@ import Chat from "../models/chat.model.js";
 
 /**
  * @description create chat
- * @function Chat
+ * @function createChat
  * @requires - authenticate middleware
  * @requires - authorize middleware
  * @method POST

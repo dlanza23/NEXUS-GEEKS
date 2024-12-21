@@ -51,7 +51,7 @@ export const updateSubs = async (req, res) => {
 
 /**
  * delete subscription
- * @function deleteSubs
+ * @function cancelSubs
  * @async - The function is asynchronous
  * @param {*} req - The request object
  * @param {*} res - The response object

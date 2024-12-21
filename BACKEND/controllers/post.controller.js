@@ -29,7 +29,6 @@ export const MyPost = async (req, res) => {
  * @param {Object} res - Response object
  * @returns {String} - Message
  * @method POST
- * @example http://localhost:3001/publications
  */
 export const createPost = async (req, res) => {
   try {
@@ -53,7 +52,7 @@ export const createPost = async (req, res) => {
 }
 
 /**
- * @description Edit a publication
+ * @description Edit a post
  * @function updatePost
  * @param {Object} req - Request object
  * @param {Object} res - Response object
@@ -80,7 +79,7 @@ export const updatePost = async (req, res) => {
 
 /**
  * @description Delete a Post
- * @function deletePublication
+ * @function deletePost
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @param {String} req.params.id - Publication ID
