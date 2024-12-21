@@ -2,7 +2,7 @@ import Post from "../models/posts.model.js";
 
 /**
  * @description Get all Post
- * @function getAllPublications
+ * @function getAllPost
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @query {Number} page - Page number
@@ -10,16 +10,6 @@ import Post from "../models/posts.model.js";
  * @returns {Object} - List of publications
  * @method GET
  */
-
-export const getapost = async (req, res) => {
-  try{
-    const Post = await Post.find();
-    res.json(Post);
-  }catch (error) {
-    console.error(error);
-    res.status(500).json({ message: 'Error get Post' });
-}
-}
 
 export const getAllPost = async (req, res) => {
   try {

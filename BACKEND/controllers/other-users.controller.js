@@ -57,10 +57,10 @@ export const followOrUnfollowUser = async (req, res) => {
 
 /**
  * @description Block user only for me
+ * @function BlockUser
  * @param {Object} req - Request object
  * @param {Object} res - Response object
- * @param {String} req.params.username - Username of my user
- * @body {String} Username of the user I want to block
+ * @param {String} Username of my user
  * @returns {Object} - Message
  * @method PATCH
  */

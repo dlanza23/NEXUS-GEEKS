@@ -81,7 +81,15 @@ export const getMessage = async (req, res) => {
 }
 };
 
-
+/**
+ * @description Mark as read
+ * @function readMessage
+ * @param {Object} req - Request object
+ * @param {Object} res - Response object
+ * @param {String} Message ID
+ * @return {Object} - Message
+ * @method PATCH
+ */
 export const readMessage = async (req, res) => {
   try {
       const { MessageId } = req.params;

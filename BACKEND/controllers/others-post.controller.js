@@ -3,13 +3,12 @@ import { User } from "../models/users.model.js";
 
 /**
  * @description View a post
- * @function viewPublication
+ * @function viewPost
  * @param {Object} req - Request object
  * @param {Object} res - Response object
- * @param {String} req.params.id - Publication ID
+ * @param {String} Publication ID
  * @returns {Object} - Publication
  * @method GET
- * @example http://localhost:3001/publications/:id
  */
 export const viewPost = async (req, res) => {
   try {
@@ -53,7 +52,7 @@ export const sharePost = async (req, res) => {
 
 /**
  * @description Report a publication
- * @function reportPublication
+ * @function reportPost
  * @param {Object} req - Request object
  * @param {Object} res - Response object
  * @param {String} req.params.id - Publication ID
@@ -84,7 +83,6 @@ export const reportPost = async (req, res) => {
  * @param {String} req.params.id - Publication ID
  * @returns {String} - Message
  * @method PATCH
- * @example http://localhost:3001/publications/:id
  */
 export const savepost = async (req, res) => {
   try {

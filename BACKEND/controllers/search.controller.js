@@ -5,9 +5,6 @@ import { User } from "../models/users.model.js";
  * @function searchUser
  * @param {Object} req - Request object
  * @param {Object} res - Response object
- * @query {String} search - Search term
- * @query {Number} page - Page number
- * query {Number} limit - Limit of users
  * @returns {Object} - List of users
  * @method GET
  */

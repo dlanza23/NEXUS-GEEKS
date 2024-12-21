@@ -2,7 +2,7 @@ import Subscription from "../models/subscription.model.js";
 
 /**
  * get filtered subscriptions
- * @function getFilteredSubscriptions
+ * @function getallSubs
  * @async - The function is asynchronous
  * @param {*} req - The request object
  * @param {*} res - The response object

@@ -28,9 +28,9 @@ export const createTransaction = async (req, res) => {
 };
 
 /**
- * getTransactions
+ * get Transactions
  * @description Gets all transactions
- * @function - getTransactions
+ * @function  getTransactions
  * @async - The function is asynchronous
  * @returns {Object} - The transactions
  * @param {*} req - The request object
@@ -47,9 +47,9 @@ export const getTransactions = async (req, res) => {
 };
 
 /**
- * deleteTransaction
+ * delete Transaction
  * @description Deletes a transaction
- * @function - deleteTransaction
+ * @function  deleteTransaction
  * @async - The function is asynchronous
  * @param {*} req - The request object
  * @param {*} res - The response object
@@ -75,7 +75,7 @@ export const deleteTransaction = async (req, res) => {
 /**
  * updateTransaction
  * @description Updates a transaction
- * @function - updateTransaction
+ * @function  updateTransaction
  * @async - The function is asynchronous
  * @param {*} req - The request object
  * @param {*} res - The response object
